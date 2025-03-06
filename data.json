@@ -1,0 +1,11 @@
+{
+    "players": [
+        {"name": "Alice", "score": 100},
+        {"name": "Bob", "score": 200},
+        {"name": "Charlie", "score": 150}
+    ],
+    "gameSettings": {
+        "level": 5,
+        "difficulty": "Hard"
+    }
+}
