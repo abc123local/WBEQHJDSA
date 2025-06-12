@@ -1,9 +1,11 @@
+_G.Mode = false
 if game.PlaceId == 18172550962 then
     wait(8)
     print("进入游戏")
     game:GetService("ReplicatedStorage").remotes.playerTP:FireServer("Grasslands","Nightmare",true)
 end
-if game.PlaceId == 18172553902 then
+if game.PlaceId == 18172553902 and _G.Mode == false then
+    _G.Mode = true
     wait(8)
     print("开始刷本")
     local m = 1
