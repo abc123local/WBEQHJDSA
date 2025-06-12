@@ -64,7 +64,7 @@ if game.PlaceId == 18172553902 then
         end
     end)
     workspace.ChildAdded:Connect(function(child)
-        wait(1)
+        wait(1.5)
         if child:IsA("Model") and child.Name == tostring(m) or child.Name == "BossRoom" then
             local HumanoidRootPart = game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
             if HumanoidRootPart then
