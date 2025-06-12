@@ -1,12 +1,5 @@
-while true do
-    local B = game.Workspace:FindFirstChild(game:GetService("Players").LocalPlayer.Name)
-	if B then
-		print("跳出循环")
-		break
-	end
-	wait()
-end
 if game.PlaceId == 18172550962 then
+    wait(8)
     game:GetService("ReplicatedStorage").remotes.playerTP:FireServer("Grasslands","Nightmare",true)
 end
 if game.PlaceId == 18172553902 then
