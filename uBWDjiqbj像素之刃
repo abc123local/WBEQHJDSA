@@ -1,5 +1,5 @@
 if game.PlaceId == 18172550962 then
-    wait(8)
+    wait(15)
     print("进入游戏")
     game:GetService("ReplicatedStorage").remotes.playerTP:FireServer("Grasslands","Nightmare",true)
     queueteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
