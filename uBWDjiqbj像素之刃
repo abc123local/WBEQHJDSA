@@ -13,7 +13,7 @@ end
 if game.PlaceId == 18172553902 and _G.Mode == false then
     _G.Mode = true
     wait(8)
-    print("开始刷本")
+    print("开始刷本V1.0.0")
     local m = 1
     for _, EnemiesName in ipairs(game:GetService("ReplicatedStorage").Enemies:GetChildren()) do
         for _, workspaceEnemy in ipairs(workspace:GetChildren()) do
